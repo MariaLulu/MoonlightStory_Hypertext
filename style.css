@@ -100,10 +100,14 @@ h1{
 	visibility: hidden;
 	background-color: black;
 	color: white;
+	font-family: 'Asap', sans-serif;
+	text-decoration: none;
 }
 
 #tooltiptext2{
 	visibility: hidden;
 	background-color: black;
 	color: white;
+	font-family: 'Asap', sans-serif;
+	text-decoration: none;
 }
