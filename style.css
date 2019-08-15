@@ -111,3 +111,22 @@ h1{
 	font-family: 'Asap', sans-serif;
 	text-decoration: none;
 }
+
+#dead{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(255, 0, 0, 0);
+	animation-duration: 3s;
+	animation-name: flashred;
+	animation-iteration-count: infinite; 
+}
+
+@keyframes flashred{
+	0%{background-color: rgba(255, 0, 0, 0);}
+	3%{background-color: rgba(255, 0, 0, 1);}
+	6%{background-color: rgba(255, 0, 0, 0);}
+	10%{background-color: rgba(255, 0, 0, 0.8);}
+	15%{background-color: rgba(255, 0, 0, 0);}
+	100%{background-color: rgba(255, 0, 0, 0);}
+}
